@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-03-05 13:59:39">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Ui policy</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e5b97a3fc3d372109f393132b4013169</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-05 13:59:37</sys_created_on>
+<sys_id>211b1f3fc3d772109f393132b40131fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-05 13:59:37</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_c669d77bc3d772109f393132b4013150</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;state=2^EQ&lt;item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Mandatory Priority&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-05 13:54:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c669d77bc3d772109f393132b4013150&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mandatory Priority&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_c669d77bc3d772109f393132b4013150&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-05 13:54:23&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>816941490</payload_hash>
+<remote_update_set display_value="Ui policy">211b1f3fc3d772109f393132b40131fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-05 13:59:37</sys_created_on>
+<sys_id>651b1f3fc3d772109f393132b40131fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cbe4735320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-05 13:59:37</sys_updated_on>
+<table>incident</table>
+<target_name>Mandatory Priority</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>3ce997bb68d772102ca29b8dd806cd70</update_guid>
+<update_guid_history>3ce997bb68d772102ca29b8dd806cd70:816941490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_448df237c31772109f393132b4013118</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>priority</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 11:51:23</sys_created_on><sys_id>448df237c31772109f393132b4013118</sys_id><sys_mod_count>0</sys_mod_count><sys_name>priority</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_policy_action_448df237c31772109f393132b4013118</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 11:51:23</sys_updated_on><table>incident</table><ui_policy display_value="Mandatory Priority">d0dc7eb3c31772109f393132b401319a</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=448df237c31772109f393132b4013118"/></record_update>]]></payload>
+<payload_hash>-1943071287</payload_hash>
+<remote_update_set display_value="Ui policy">211b1f3fc3d772109f393132b40131fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-05 13:59:37</sys_created_on>
+<sys_id>e51b1f3fc3d772109f393132b40131fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19cbdd697820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-03-05 13:59:37</sys_updated_on>
+<table>incident</table>
+<target_name>priority</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>0bbdba37a6177210aa53e40769e66476</update_guid>
+<update_guid_history>0bbdba37a6177210aa53e40769e66476:-1943071287</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
